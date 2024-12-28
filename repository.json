@@ -1,0 +1,8 @@
+{
+  "name": "My Custom Add-ons",
+  "url": "https://github.com/tuo-username/homeassistant-voltronic-addon",
+  "maintainer": "Il Tuo Nome",
+  "homeassistant": "2023.2.0",
+  "country": "IT",
+  "zip_release": false
+}
