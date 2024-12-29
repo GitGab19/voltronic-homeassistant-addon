@@ -8,6 +8,10 @@ RUN apt update && apt install -y \
         jq \
         mosquitto-clients
 
+RUN git clone https://github.com/ned-kelly/docker-voltronic-homeassistant.git
+
+RUN cd docker-voltronic-homeassistant
+
 ADD sources/ /opt/
 ADD config/ /etc/inverter/
 
